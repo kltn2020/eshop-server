@@ -1,0 +1,6 @@
+postgresql_version: 12
+postgresql_databases:
+  - name: eshop
+postgresql_users:
+  - name: phathdt379
+    password: password123

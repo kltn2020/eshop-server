@@ -1,0 +1,18 @@
+# ---
+# - hosts: webservers
+#   become: true
+#   roles:
+#     - role: markosamuli.asdf
+#       asdf_plugins:
+#         # - name: 'erlang'
+#         #   versions: ['23.1']
+#         #   global: '23.1'
+#         # - name: 'elixir'
+#         #   versions: ['1.10.4']
+#         #   global: '1.10.4'
+#         - name: 'nodejs'
+#           versions: ['12.18.4']
+#           global: '12.18.4'
+#   tasks:
+#     - name: Install yarn
+#       command: npm install -g yarn
